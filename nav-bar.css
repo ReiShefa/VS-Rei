@@ -1,0 +1,67 @@
+/* nav bar starts */
+#home {
+  padding-top: 91px;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "proxima-nova";
+  }
+
+.brand{
+    display: none;
+    }
+    .brandShow{
+    display: block;
+    }
+    .example_b {
+      color: #038ba3 !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      /* background: #6096B4; */
+      padding: 20px;
+      border-radius: 50px;
+      border: none;
+      transition: all 0.4s ease 0s;
+    
+      }
+    
+      .example_b:hover {
+      text-shadow: 0px 0px 6px  rgba(255, 255, 255, 1);
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(202, 41, 41, 0.57);
+      transition: all 0.4s ease 0s;
+      width: fit-content ;
+      /* background-color: #e1b49c; */
+      color: #e1b49c;
+      }
+    
+      .example_b.dropdown-item:hover {
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(202, 41, 41, 0.57);
+        transition: all 0.4s ease 0s;
+        width: fit-content;
+        color: #e1b49c;
+        border-radius: 50px;
+        
+      }
+    /* nav bar ends  */
+
+
+    .bi {
+      width: 5em;
+      height: 5em;
+      vertical-align: -0.125em;
+      fill: currentcolor;
+    }
+  .getInTOuch{
+    background: white !important;
+  }
